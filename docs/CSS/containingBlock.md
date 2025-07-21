@@ -80,6 +80,4 @@
 
 ### 参考
 
-- [MDN - Containing block](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Containing_block)
 - [MDN - 包含块](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Containing_block)
-- [CSS Containing Block](https://www.w3.org/TR/CSS2/visudet.html#containing-block-details)

@@ -87,3 +87,28 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
+
+.medium-zoom-overlay {
+  z-index: 100 !important;
+  /* 遮罩 */
+}
+
+.medium-zoom-image {
+  z-index: 101 !important;
+  /* 放大后的图片 */
+}
+
+
+:root {
+  --bg: #FFFFFF;
+  --box-shadow: 0px 0px 3px 1px #00000018;
+  --color: #000000;
+  --blur-color: rgba(19, 14, 14, .6);
+}
+
+html.dark {
+  --bg: #171717;
+  --box-shadow: 0px 0px 3px 1px #00000088;
+  --color: #FFFFFF;
+  --blur-color: #fff5;
+}

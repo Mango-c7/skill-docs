@@ -20,17 +20,17 @@ pnpm install
 ## 本地运行
 
 ```bash
-pnpm run docs:dev
+pnpm run dev
 ```
 
 ## 构建静态文件
 
 ```bash
-pnpm run docs:build
+pnpm run build
 ```
 
 ## 预览静态文件
 
 ```bash
-pnpm run docs:preview
+pnpm run preview
 ```
