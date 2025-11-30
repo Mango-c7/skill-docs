@@ -36,3 +36,11 @@ pnpm run build
 ```bash
 pnpm run preview
 ```
+
+## 代码 commit 规范
+
+```bash
+pnpm run commit
+```
+
+## 贡献指南
