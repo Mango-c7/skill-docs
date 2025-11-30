@@ -1,3 +1,28 @@
+# Ui Libary 入门
+
+## 设置 tailwindcss
+
+首先，tailwindcss 按照本指南进行安装。[安装指南](https://tailwindcss.com/docs/installation)
+
+## 安装依赖
+
+安装 tailwindcss 和实用程序的库。
+
+```bash
+pnpm install -D clsx tailwind-merge class-variance-authority tw-animate-css
+```
+
+安装 VueUse 和其他支持库。
+
+```bash
+npm install @vueuse/core motion-v
+```
+
+## 更新您的 main.css 文件
+
+将以下代码添加到您的 main.css 文件中，这将设置组件所需的变量：
+
+```css
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -79,7 +104,6 @@
   * {
     @apply border-border outline-ring/50;
   }
-
   body {
     @apply bg-background text-foreground;
   }
@@ -88,11 +112,29 @@
 html {
   color-scheme: light dark;
 }
-
 html.dark {
   color-scheme: dark;
 }
-
 html.light {
   color-scheme: light;
 }
+```
+
+## 设置 cn 实用程序
+
+添加以下实用程序 lib/utils.ts
+
+```ts
+import { type ClassValue, clsx } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
+export type ObjectValues<T> = T[keyof T];
+```
+
+## 参考资料
+
+- [inspira-ui](https://inspira-ui.com/docs/getting-started/installation)

@@ -19,7 +19,6 @@ export default {
   setup() {
     const router = useRouter();
     const initZoom = () => {
-      console.log(window.location.pathname);
       mediumZoom(".main img:not(.no-zoom)", { background: "rgba(0,0,0,0.8)" });
     };
 

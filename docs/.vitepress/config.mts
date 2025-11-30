@@ -24,7 +24,9 @@ export default defineConfig({
           { text: "HTML", link: "/HTML/introduction" },
           { text: "CSS", link: "/CSS/introduction" },
           { text: "JavaScript", link: "/JavaScript/introduction" },
+          { text: "Module", link: "/Module/commonjs" },
           { text: "Vue", link: "/Vue/introduction" },
+          { text: "UiLibray", link: "/UiLibary/introduction" },
         ],
       },
     ],
@@ -61,6 +63,15 @@ export default defineConfig({
               { text: "This指向", link: "/JavaScript/This指向" },
               { text: "Class", link: "/JavaScript/Class" },
               { text: "Promise", link: "/JavaScript/Promise" },
+              { text: "ES6-ES11", link: "/JavaScript/ESFeatures" },
+            ],
+          },
+          {
+            text: "Module",
+            collapsed: false,
+            items: [
+              { text: "commonjs", link: "/module/commonjs" },
+              { text: "esmodule", link: "/module/esmodule" },
             ],
           },
           {
@@ -68,8 +79,17 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: "介绍", link: "/Vue/introduction" },
+              { text: "Vue生命周期", link: "/Vue/lifeCycle" },
               { text: "vue2和vue3", link: "/Vue/vue2comparevue3" },
               { text: "Vue3.6.0", link: "/Vue/Vue3.6.0" },
+            ],
+          },
+          {
+            text: "UiLibray",
+            collapsed: true,
+            items: [
+              { text: "介绍", link: "/UiLibary/introduction" },
+              { text: "FileUpload", link: "/UiLibary/FileUpload" },
             ],
           },
 
