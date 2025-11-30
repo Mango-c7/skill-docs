@@ -41,6 +41,8 @@ pnpm run preview
 
 ```bash
 pnpm run commit
+
+git push github main
 ```
 
 ## 贡献指南
