@@ -16,7 +16,8 @@
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
     "add": "git add . ",
-    "commit": "czg"
+    "commit": "czg",
+    "push": "git push origin main"
   },
   "dependencies": {
     "@vueuse/core": "^13.5.0",

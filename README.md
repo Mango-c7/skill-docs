@@ -41,11 +41,12 @@ pnpm run preview
 
 ```bash
 
-git add .
+pnpm run add
 
 pnpm run commit
 
-git push github main
+pnpm run push
+
 ```
 
 ## 贡献指南
