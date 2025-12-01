@@ -24,7 +24,8 @@ export default defineConfig({
           { text: "HTML", link: "/HTML/introduction" },
           { text: "CSS", link: "/CSS/introduction" },
           { text: "JavaScript", link: "/JavaScript/introduction" },
-          { text: "Module", link: "/Module/commonjs" },
+          { text: "DataStorage", link: "/DataStorage/introduction" },
+          { text: "Module", link: "/Module/commonJs" },
           { text: "Vue", link: "/Vue/introduction" },
           { text: "UiLibray", link: "/UiLibary/introduction" },
         ],
@@ -39,7 +40,7 @@ export default defineConfig({
         items: [
           {
             text: "HTML",
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: "介绍", link: "/HTML/introduction" },
               { text: "语义化标签", link: "/HTML/semanticization" },
@@ -47,7 +48,7 @@ export default defineConfig({
           },
           {
             text: "CSS",
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: "介绍", link: "/CSS/introduction" },
               { text: "CSS 包含块", link: "/CSS/containingBlock.md" },
@@ -56,7 +57,7 @@ export default defineConfig({
           },
           {
             text: "JavaScript",
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: "介绍", link: "/JavaScript/introduction" },
               { text: "EventLoop", link: "/JavaScript/EventLoop" },
@@ -67,11 +68,19 @@ export default defineConfig({
             ],
           },
           {
-            text: "Module",
-            collapsed: false,
+            text: "DataStorage",
+            collapsed: true,
             items: [
-              { text: "commonjs", link: "/module/commonjs" },
-              { text: "esmodule", link: "/module/esmodule" },
+              { text: "介绍", link: "/DataStorage/introduction" },
+              { text: "cookies", link: "/DataStorage/cookies" },
+            ],
+          },
+          {
+            text: "Module",
+            collapsed: true,
+            items: [
+              { text: "commonJs", link: "/Module/commonJs" },
+              { text: "ESmodule", link: "/Module/esmodule" },
             ],
           },
           {

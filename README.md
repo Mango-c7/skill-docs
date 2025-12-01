@@ -40,6 +40,9 @@ pnpm run preview
 ## 代码 commit 规范
 
 ```bash
+
+git add .
+
 pnpm run commit
 
 git push github main

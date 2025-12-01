@@ -15,6 +15,7 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
+    "add": "git add . ",
     "commit": "czg"
   },
   "dependencies": {
