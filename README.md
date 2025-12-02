@@ -40,13 +40,11 @@ pnpm run preview
 ## 代码 commit 规范
 
 ```bash
-
 pnpm run add
 
 pnpm run commit
 
 pnpm run push
-
 ```
 
 ## 贡献指南

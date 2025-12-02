@@ -91,6 +91,7 @@ export default defineConfig({
               { text: "Vue生命周期", link: "/Vue/lifeCycle" },
               { text: "vue2和vue3", link: "/Vue/vue2comparevue3" },
               { text: "Vue3.6.0", link: "/Vue/Vue3.6.0" },
+              { text: "Pinia", link: "/Vue/Pinia" },
             ],
           },
           {
