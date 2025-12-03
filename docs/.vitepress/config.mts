@@ -27,6 +27,7 @@ export default defineConfig({
           { text: "DataStorage", link: "/DataStorage/introduction" },
           { text: "Module", link: "/Module/commonJs" },
           { text: "Vue", link: "/Vue/introduction" },
+          { text: "Utils", link: "/Utils/JsonSchema" },
           { text: "UiLibray", link: "/UiLibary/introduction" },
         ],
       },
@@ -101,6 +102,12 @@ export default defineConfig({
               { text: "介绍", link: "/UiLibary/introduction" },
               { text: "FileUpload", link: "/UiLibary/FileUpload" },
             ],
+          },
+
+          {
+            text: "Utils",
+            collapsed: true,
+            items: [{ text: "JsonSchema", link: "/Utils/JsonSchema" }],
           },
 
           {
